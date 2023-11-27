@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DuyMovie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <navbar start -->
+    <div class="navbar">
+      <div class="navbar-wrapper">
+        <div class="logo-wrapper">
+          <h1 class="logo">DUYMOVIE </h1>
+        </div>
+        <div class="menu-container">
+          <ul class="menu-list">
+            <li class="menu-list-item active">Home Page</li>
+            <li class="menu-list-item">Movies</li>
+            <li class="menu-list-item">Tv Shows</li>
+            <li class="menu-list-item">My List</li>
+            <li class="menu-list-item">Popular</li>
+          </ul>
+        </div>
+        <div class="profile-container">
+          <img class="profile-picture" src="img/profile.jpeg" alt="" />
+          <div class="profile-text-container">
+            <span class="profile-text">My Account</span>
+            <i class="bi bi-caret-down-fill"></i>
+          </div>
+          <div class="toggle">
+            <i class="bi bi-moon-fill toggle-icon"></i>
+            <i class="bi bi-brightness-high-fill toggle-icon"></i>
+            <div class="toggle-ball"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+ <!-- Navbar End -->
+
+ <!-- Sidebar Start -->
+ 
+ <div class="sidebar">
+  <i class="bi bi-search"></i>
+  <i class="bi bi-house-door-fill"></i>
+  <i class="bi bi-people-fill"></i>
+  <i class="bi bi-bookmarks-fill"></i>
+  <i class="bi bi-hourglass-top"></i>
+  <i class="bi bi-cart-fill"></i>
+  <i class="bi bi-gear-fill"></i>
+</div>
+
+
+<!-- Content Start -->
+<div class="container">
+ 
+  <div class="featured-content">
+    <div class="content-wrapper">
+      <img class="featured-title" src="img/spiderman-title.png" alt="" />
+      <p class="featured-desc">
+        Prepare for a rollercoaster of emotions, as the Joker's laughter echoes through the corridors of your mind. Will Gotham succumb to the madness, or will a hero rise to face the shadows that the Joker casts? Find out in theaters [2024,January] and witness the birth of a new legend in this chilling chapter of the Joker's saga. Don't miss the madness; it's time to embrace the shadows
+      </p>
+      <div class="featured-buttons">
+        <button class="play-button">
+          <i class="bi bi-play-circle"></i>
+          Play
+        </button>
+        <button class="info-button">
+          <i class="bi bi-info-circle"></i>
+          More Information
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- featured content end -->
+
+   <!-- Filter Start -->
+   <div class="movie-list-filter">
+    <select>
+      <option>Action</option>
+      <option>Animation</option>
+      <option>Documentary</option>
+      <option>Science Fiction</option>
+    </select>
+  </div>
+  
+
+   <!-- Movie List start -->
+   <div class="movie-list-container">
+    <h1 class="movie-list-title">Popular Now</h1>
+    <div class="movie-list-wrapper">
+      <ul class="movie-list">
+        <li class="movie-item">
+          <img class="movie-item-img" src="img/jokerwallpeper.jpg" alt="" />
+          <div class="movie-item-info">
+            <span class="movie-item-title">JOKER 2024</span>
+            <div class="movie-item-buttons">
+              <i class="bi bi-play-circle-fill"></i>
+              <i class="bi bi-hand-thumbs-up-fill"></i>
+              <i class="bi bi-hand-thumbs-down-fill"></i>
+              <i class="bi bi-plus-circle-fill"></i>
+            </div>
+          </div>
+        </li>
+        <li class="movie-item">
+          <img class="movie-item-img" src="/img/talktobe.jpeg" alt="" />
+          <div class="movie-item-info">
+            <span class="movie-item-title">TALK TO ME </span>
+            <div class="movie-item-buttons">
+              <i class="bi bi-play-circle-fill"></i>
+              <i class="bi bi-hand-thumbs-up-fill"></i>
+              <i class="bi bi-hand-thumbs-down-fill"></i>
+              <i class="bi bi-plus-circle-fill"></i>
+            </div>
+          </div>
+        </li>
+        <li class="movie-item">
+          <img class="movie-item-img" src="/img/oldmovie.jpg" alt="" />
+          <div class="movie-item-info">
+            <span class="movie-item-title">OLD</span>
+            <div class="movie-item-buttons">
+              <i class="bi bi-play-circle-fill"></i>
+              <i class="bi bi-hand-thumbs-up-fill"></i>
+              <i class="bi bi-hand-thumbs-down-fill"></i>
+              <i class="bi bi-plus-circle-fill"></i>
+            </div>
+          </div>
+        </li>
+        <li class="movie-item">
+          <img class="movie-item-img" src="/img/thenun2.jpg" alt="" />
+          <div class="movie-item-info">
+            <span class="movie-item-title">THE NUN 2</span>
+            <div class="movie-item-buttons">
+              <i class="bi bi-play-circle-fill"></i>
+              <i class="bi bi-hand-thumbs-up-fill"></i>
+              <i class="bi bi-hand-thumbs-down-fill"></i>
+              <i class="bi bi-plus-circle-fill"></i>
+            </div>
+          </div>
+        </li>
+        <li class="movie-item">
+          <img class="movie-item-img" src="img/megan.jpeg" alt="" />
+          <div class="movie-item-info">
+            <span class="movie-item-title">MEGAN</span>
+            <div class="movie-item-buttons">
+              <i class="bi bi-play-circle-fill"></i>
+              <i class="bi bi-hand-thumbs-up-fill"></i>
+              <i class="bi bi-hand-thumbs-down-fill"></i>
+              <i class="bi bi-plus-circle-fill"></i>
+            </div>
+          </div>
+        </li>
+        <li class="movie-item">
+          <img class="movie-item-img" src="img/influencer.jpeg" alt="" />
+          <div class="movie-item-info">
+            <span class="movie-item-title">INFLUENCER</span>
+            <div class="movie-item-buttons">
+              <i class="bi bi-play-circle-fill"></i>
+              <i class="bi bi-hand-thumbs-up-fill"></i>
+              <i class="bi bi-hand-thumbs-down-fill"></i>
+              <i class="bi bi-plus-circle-fill"></i>
+            </div>
+          </div>
+        </li>
+        <li class="movie-item">
+          <img class="movie-item-img" src="/img/f7.jpg" alt="" />
+          <div class="movie-item-info">
+            <span class="movie-item-title">DAREDEVIL</span>
+            <div class="movie-item-buttons">
+              <i class="bi bi-play-circle-fill"></i>
+              <i class="bi bi-hand-thumbs-up-fill"></i>
+              <i class="bi bi-hand-thumbs-down-fill"></i>
+              <i class="bi bi-plus-circle-fill"></i>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <i class="bi bi-chevron-right arrow"></i>
+    </div>
+  </div>
+  <div class="movie-list-container">
+    <h1 class="movie-list-title">Horror Category</h1>
+    <div class="movie-list-wrapper">
+      <ul class="movie-list">
+        <li class="movie-item">
+          <img class="movie-item-img" src="/img/runmovie.jpg" alt="" />
+          <div class="movie-item-info">
+            <span class="movie-item-title">RUN</span>
+            <div class="movie-item-buttons">
+              <i class="bi bi-play-circle-fill"></i>
+              <i class="bi bi-hand-thumbs-up-fill"></i>
+              <i class="bi bi-hand-thumbs-down-fill"></i>
+              <i class="bi bi-plus-circle-fill"></i>
+            </div>
+          </div>
+        </li>
+        <li class="movie-item">
+          <img class="movie-item-img" src="/img/whenevillurks.jpeg" alt="" />
+          <div class="movie-item-info">
+            <span class="movie-item-title">WHEN EVIL LURKS</span>
+            <div class="movie-item-buttons">
+              <i class="bi bi-play-circle-fill"></i>
+              <i class="bi bi-hand-thumbs-up-fill"></i>
+              <i class="bi bi-hand-thumbs-down-fill"></i>
+              <i class="bi bi-plus-circle-fill"></i>
+            </div>
+          </div>
+        </li>
+        <li class="movie-item">
+          <img class="movie-item-img" src="/img/conjuringlast.jpg" alt="" />
+          <div class="movie-item-info">
+            <span class="movie-item-title">CONJURING LAST RITES</span>
+            <div class="movie-item-buttons">
+              <i class="bi bi-play-circle-fill"></i>
+              <i class="bi bi-hand-thumbs-up-fill"></i>
+              <i class="bi bi-hand-thumbs-down-fill"></i>
+              <i class="bi bi-plus-circle-fill"></i>
+            </div>
+          </div>
+        </li>
+        <li class="movie-item">
+          <img class="movie-item-img" src="/img/thenun2.jpg" alt="" />
+          <div class="movie-item-info">
+            <span class="movie-item-title">THE NUN 2 </span>
+            <div class="movie-item-buttons">
+              <i class="bi bi-play-circle-fill"></i>
+              <i class="bi bi-hand-thumbs-up-fill"></i>
+              <i class="bi bi-hand-thumbs-down-fill"></i>
+              <i class="bi bi-plus-circle-fill"></i>
+            </div>
+          </div>
+        </li>
+        <li class="movie-item">
+          <img class="movie-item-img" src="/img/megan.jpeg" alt="" />
+          <div class="movie-item-info">
+            <span class="movie-item-title">MEGAN</span>
+            <div class="movie-item-buttons">
+              <i class="bi bi-play-circle-fill"></i>
+              <i class="bi bi-hand-thumbs-up-fill"></i>
+              <i class="bi bi-hand-thumbs-down-fill"></i>
+              <i class="bi bi-plus-circle-fill"></i>
+            </div>
+          </div>
+        </li>
+        <li class="movie-item">
+          <img class="movie-item-img" src="/img/f6.jpg" alt="" />
+          <div class="movie-item-info">
+            <span class="movie-item-title">DAREDEVİL</span>
+            <div class="movie-item-buttons">
+              <i class="bi bi-play-circle-fill"></i>
+              <i class="bi bi-hand-thumbs-up-fill"></i>
+              <i class="bi bi-hand-thumbs-down-fill"></i>
+              <i class="bi bi-plus-circle-fill"></i>
+            </div>
+          </div>
+        </li>
+        <li class="movie-item">
+          <img class="movie-item-img" src="/img/f7.jpg" alt="" />
+          <div class="movie-item-info">
+            <span class="movie-item-title">DAREDEVİL</span>
+            <div class="movie-item-buttons">
+              <i class="bi bi-play-circle-fill"></i>
+              <i class="bi bi-hand-thumbs-up-fill"></i>
+              <i class="bi bi-hand-thumbs-down-fill"></i>
+              <i class="bi bi-plus-circle-fill"></i>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <i class="bi bi-chevron-right arrow"></i>
+    </div>
+  </div>
+  <div class="movie-list-container">
+    <h1 class="movie-list-title">News</h1>
+    <div class="movie-list-wrapper">
+      <ul class="movie-list">
+        <li class="movie-item">
+          <img class="movie-item-img" src="/img/jokerwallpeper.jpg" alt="" />
+          <div class="movie-item-info">
+            <span class="movie-item-title">JOKER FOLIE A DEUX
+               </span>
+            <div class="movie-item-buttons">
+              <i class="bi bi-play-circle-fill"></i>
+              <i class="bi bi-hand-thumbs-up-fill"></i>
+              <i class="bi bi-hand-thumbs-down-fill"></i>
+              <i class="bi bi-plus-circle-fill"></i>
+            </div>
+          </div>
+        </li>
+        <li class="movie-item">
+          <img class="movie-item-img" src="/img/megan.jpeg" alt="" />
+          <div class="movie-item-info">
+            <span class="movie-item-title">MEGAN</span>
+            <div class="movie-item-buttons">
+              <i class="bi bi-play-circle-fill"></i>
+              <i class="bi bi-hand-thumbs-up-fill"></i>
+              <i class="bi bi-hand-thumbs-down-fill"></i>
+              <i class="bi bi-plus-circle-fill"></i>
+            </div>
+          </div>
+        </li>
+        <li class="movie-item">
+          <img class="movie-item-img" src="/img/influencer.jpeg" alt="" />
+          <div class="movie-item-info">
+            <span class="movie-item-title">INFLUENCER</span>
+            <div class="movie-item-buttons">
+              <i class="bi bi-play-circle-fill"></i>
+              <i class="bi bi-hand-thumbs-up-fill"></i>
+              <i class="bi bi-hand-thumbs-down-fill"></i>
+              <i class="bi bi-plus-circle-fill"></i>
+            </div>
+          </div>
+        </li>
+        <li class="movie-item">
+          <img class="movie-item-img" src="/img/runmovie.jpg" alt="" />
+          <div class="movie-item-info">
+            <span class="movie-item-title">RUN</span>
+            <div class="movie-item-buttons">
+              <i class="bi bi-play-circle-fill"></i>
+              <i class="bi bi-hand-thumbs-up-fill"></i>
+              <i class="bi bi-hand-thumbs-down-fill"></i>
+              <i class="bi bi-plus-circle-fill"></i>
+            </div>
+          </div>
+        </li>
+        <li class="movie-item">
+          <img class="movie-item-img" src="img/conjuringlast.jpg" alt="" />
+          <div class="movie-item-info">
+            <span class="movie-item-title">CONJURING LAST RITES</span>
+            <div class="movie-item-buttons">
+              <i class="bi bi-play-circle-fill"></i>
+              <i class="bi bi-hand-thumbs-up-fill"></i>
+              <i class="bi bi-hand-thumbs-down-fill"></i>
+              <i class="bi bi-plus-circle-fill"></i>
+            </div>
+          </div>
+        </li>
+        <li class="movie-item">
+          <img class="movie-item-img" src="img/influencer.jpeg" alt="" />
+          <div class="movie-item-info">
+            <span class="movie-item-title">INFLUENCER</span>
+            <div class="movie-item-buttons">
+              <i class="bi bi-play-circle-fill"></i>
+              <i class="bi bi-hand-thumbs-up-fill"></i>
+              <i class="bi bi-hand-thumbs-down-fill"></i>
+              <i class="bi bi-plus-circle-fill"></i>
+            </div>
+          </div>
+        </li>
+        <li class="movie-item">
+          <img class="movie-item-img" src="/img/conjuringlast.jpg" alt="" />
+          <div class="movie-item-info">
+            <span class="movie-item-title">CONJURING LAST RITES </span>
+            <div class="movie-item-buttons">
+              <i class="bi bi-play-circle-fill"></i>
+              <i class="bi bi-hand-thumbs-up-fill"></i>
+              <i class="bi bi-hand-thumbs-down-fill"></i>
+              <i class="bi bi-plus-circle-fill"></i>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <i class="bi bi-chevron-right arrow"></i>
+    </div>
+  </div>
+  <!-- movie list end -->
+</div>
+<!-- content end -->
+
+<script src="script.js"></script>
+<p class="all-end"> <i>©2023by Alin</p></i>
+</body>
+</html>
